@@ -13,7 +13,7 @@
             height: 100vh;
             margin: 0;
             background: linear-gradient(135deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-            font-family: 'Roboto', sans-serif; /* Використовуємо шрифт Roboto, схожий на Instagram */
+            font-family: 'Roboto', sans-serif;
         }
         .instagram-text {
             font-size: 24px;
@@ -28,30 +28,18 @@
             border-radius: 15px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
         }
-        .button {
-            display: inline-block;
-            padding: 15px 30px;
-            font-size: 18px;
-            font-weight: 600;
-            text-align: center;
-            text-decoration: none;
-            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-            color: white;
-            border-radius: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease;
-        }
-        .button:hover {
-            background: linear-gradient(45deg, #bc1888, #cc2366, #dc2743, #e6683c, #f09433);
-        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+        window.onload = function() {
+            window.location.replace("https://www.instagram.com/veo_me/");
+        };
+    </script>
 </head>
 <body>
-    <div class="instagram-text">Перейти в Instagram</div>
+    <div class="instagram-text">Перехід в Instagram</div>
     <div class="container">
-        <p>Переглянути профіль @veo_me</p>
-        <a href="https://www.instagram.com/veo_me/" class="button" target="_blank">Відкрити Instagram</a>
+        <p>Вас автоматично перенаправляють в Instagram...</p>
     </div>
 </body>
 </html>
